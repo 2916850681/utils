@@ -1,7 +1,7 @@
 import glob
 from os.path import join
 
-root = '/home/dell/FeatureGroup/liyachuan/00Dataset/CurlingDetection/labels'
+root = '/home/00Dataset/Detection/labels'
 dir = 'test', 'train', 'val'
 
 txt_file = join(root, '*', '*.txt')
